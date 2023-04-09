@@ -10,4 +10,4 @@
 
 Blokové schéma grafického adaptéru
 
-![gpu-block-schema](https://user-images.githubusercontent.com/44552607/230767747-66339677-bd0c-4dea-aa12-b723370119c9.png)
+![gpu-block-schema](https://user-images.githubusercontent.com/44552607/230767814-70aea035-6560-4093-b15e-29c96440209b.png)
