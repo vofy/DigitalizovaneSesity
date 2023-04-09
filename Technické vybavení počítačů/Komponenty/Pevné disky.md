@@ -1,25 +1,24 @@
-# Komponenty
-## Pevné disky
-### SSD
+# Pevné disky
+## SSD
 ```diff
 + Rychlost
 + Odolnost
 - Postupným přepisem klesá rychlost a snižuje se použitelná kapacita
 ```
-### HDD
+## HDD
 ```diff
 + Kapacita
 - Náchylnost k poškození
 - Pomalé
 ```
-### Použití:
+## Použití:
 - Klasické PC
 - Servery
 - NAS (WD RED)
 - Notebooky
 - PVR
 
-### Rozhraní dle umístění:
+## Rozhraní dle umístění:
 - Interní
   - IDE (PAT)
     - Připojení jednoho/dvou disků na jednu sběrnici
@@ -42,12 +41,12 @@
     - Připojení jednoho disku na jednu sběrnici
     - Napájení: Adaptér
 
-### Pinout napájecích konektorů:
+## Pinout napájecích konektorů:
 - SATA PWR - 12V; 5V; 3,3V
 - MOLEX - / 12V; GND; GND; 5V \
 - USB - 5V; D+; D-; GND
 
-### Fyzická struktura pevného disku
+## Fyzická struktura pevného disku
 Základní struktura:
 - Plotny (povlak oxidu železa)
 
@@ -77,7 +76,7 @@ Kapacita:
 Řadič:
 - Zajišťuje komunikaci mezi základní deskou a pevným diskem
 
-### Logická struktura pevného disku
+## Logická struktura pevného disku
 - Relativní sektory
 - Alokaní jednotky
 - Master Boot Record (MBR) - 0. relativní sektor, 0. stopa (512 b)
@@ -87,12 +86,12 @@ Kapacita:
 - Hlavní adresář v organizaci FAT
 - Hlavní adresář v organizaci VFAT
 
-#### Raidová pole
+### Raidová pole
 - Existují 2 základná způsoby vytvoření RAID pole
   - Hardwarový (použití speciálního řadiče)
   - Softwarový (v OS)
 
-##### Typy
+#### Typy
 - RAID 0 (stripping)
   - Součet kapacit disků
   - Zničení jednoho disku = zničení všech dat
